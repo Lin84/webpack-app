@@ -1,0 +1,24 @@
+{
+  "name": "webpack-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack src/js/app.js dist/bundle.js",
+    "build:prod": "webpack src/js/app.js dist/bundle.js -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lin84/webpack-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lin84/webpack-app/issues"
+  },
+  "homepage": "https://github.com/Lin84/webpack-app#readme",
+  "devDependencies": {
+    "webpack": "^3.5.4"
+  }
+}
